@@ -20,11 +20,11 @@ GROUP BY film_id
 ORDER BY count(*) DESC;
 
 
---4. How many customers have the last name ‘William’?
-SELECT last_name, count(*)
+--4. How many customers have the first name ‘Willie’?
+SELECT first_name, count(*)
 FROM customer
-WHERE last_name = 'William'
-GROUP BY last_name
+WHERE first_name = 'Willie'
+GROUP BY first_name
 ORDER BY count(*);
 
 
